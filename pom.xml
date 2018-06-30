@@ -1,0 +1,31 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.areuxonline</groupId>
+    <artifactId>bbackpacks</artifactId>
+    <version>1.0.0</version>
+	
+   	<build>
+		<resources>
+			  <resource>
+					<directory>src/main/resources</directory>
+					<filtering>true</filtering>
+			  </resource>
+		</resources>
+	</build>
+	
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>techcable-repo</id> 
+            <url>http://repo.techcable.net/content/groups/public/</url>
+        </repository>
+    </repositories>
+</project>

@@ -1,0 +1,10 @@
+name: BetterBackpacks
+version: 1.0.0a
+description: A plugin that adds backpacks people can wear.
+author: ArowShot
+main: com.areuxonline.bbackpacks.BBackpacks
+
+commands:
+   backpack:
+     description: Open your backpack.
+     aliases: [bp]
